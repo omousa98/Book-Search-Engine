@@ -6,9 +6,9 @@ const path = require('path');
 const mongoose = require("mongoose");
 const db = require('./config/connection');
 const routes = require('./routes');
-const { typeDefs, resolvers } = require("./schemas")
+const {typeDefs, resolvers} = require("./schemas");
 const http = require("http");
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 27017;
 
 const app = express();
 

@@ -24,10 +24,13 @@
   },
   "homepage": "https://github.com/omousa98/Book-Search-Engine#readme",
   "dependencies": {
+    "apollo-server-core": "^3.11.1",
     "apollo-server-express": "^2.25.3",
     "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
+    "mongodb": "^4.13.0",
     "mongoose": "^6.9.0"
   }
 }
